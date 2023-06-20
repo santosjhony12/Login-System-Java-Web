@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sistema de Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Login de usuário</h1>
+            <hr>
+
+            <form action="recebe.jsp" method="post">
+                <label>Seu email: </label><br>
+                <input type="email" name="user" id="" placeholder="email@email.com" class="inputs"><br><br>
+                
+                <label>Sua senha: </label><br>
+                <input type="password" name="password" placeholder="Senha" class="inputs"><br>
+                <br>
+               
+                <input type="checkbox" name="check">
+                <label for="check" style="color: black">Manter logado</label>
+                <br>
+                <p id="senhaincorreta"></p>
+                <div class="align-buttom">
+                    <button>Login</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
