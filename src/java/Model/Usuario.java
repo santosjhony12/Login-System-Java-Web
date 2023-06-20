@@ -2,7 +2,7 @@ package Model;
 public class Usuario {
     
     // ATRIBUTOS
-    private String username = "SJ0203@gmail.com";
+    private String username = "santosjhony@dev.com";
     public String name = "Jhony Santos";
     private String password = "1234567";
     
